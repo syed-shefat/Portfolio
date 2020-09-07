@@ -1,87 +1,60 @@
-body {
-	background-color: #f0f0f5;
-	color:#f0f0f5;
-	font: 23px Arial, Helvetica, sans-serif;
-	line-height: 1.5em;
-	margin: 0;
+h1{
+    font-size: 2.5vw;
+    color: whi;
+    text-align: center;
 }
-.container {
-	width: 80%;
-	margin: auto;
-	overflow: auto;
-	text-align: right;
-}
-.container1 {
-	margin: auto;
-	overflow: auto;
-	text-align: center;
-	padding-top: 10%;
-}
-.container2 {
-	width: 100%;
-	margin: auto;
-	overflow: auto;
-	text-align: center;
-	font: 17px Arial, Helvetica, sans-serif;
-	line-height: 1.5em;
-	background-color: #434B48;
-	color: #fff;
-	
-}
-#top-header {
-	background-color: #2B2D2C;
-	color: #fff;
-	text-align-last: center;
-}
-#links {
-	background-color: #434B48;
-	text-align: left;
-}
-#links a {
-	color:#f0f0f5;
-}
-#links li {
-	display: inline;
-}
-#view-port {
-	background-image: url("image.png"); 
+body{
+    background-image: url("git.png"); 
 	background-color: #cccccc; 
 	height: 700px;
-	background-position: center;
-	background-repeat: no-repeat; 
+	background-position: center; 
 	background-size: cover;
+    width:95%;
+    font-family:sans-serif;
 }
-#message-box {
-	float: left;
-	width: 70%;
-	box-sizing: border-box;
-	margin-top: 15px;
-	border: 1px grey solid;
-	border-radius: 3px;
-	}
-#sidewall {
-	float: left;
-	width: 30%;
-	margin-top: 15px;
-	padding: 5px;
-	box-sizing: border-box;
-	}
-#main-footer {
-	background-color: black;
-	text-align: center;
-	padding: 15px;
-	margin-top: 150px;
+li{
+    list-style:none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+#showme{
+    margin:10%;
+}
+button{
+    font-size: 1.5vw;
+    cursor: pointer;
+    width:300PX;
+    border:2px solid #BD9531;
+    border-radius: 7px;
+    margin-top: 5px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info{
+    border:2px solid #BD9531;
+    margin: 5%;
+    background-color: #616A6B;
+}
+#info1{
+    display: inline-block;
+    background-color:#E8F8F5 ;
+    padding-right:20%;
+    margin-bottom:7%;
+    margin-top:1%;
+    border:1px solid #17202A;
+}
+img{
+    margin:6%;
+    margin-bottom:-10px;
+    padding:2px;
+}
+a:link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.class{
+    padding: 15px 35px;
+    text-align: center;
+}
